@@ -1,0 +1,18 @@
+#!/bin/bash
+
+START_DATE="2024-02-09" # one day after your first commit
+END_DATE=$(date +"%Y-%m-%d")
+current_date="$START_DATE"
+
+while [[ "$current_date" < "$END_DATE" ]]; do
+  echo "Work log for $current_date" >> work_log.md
+
+  git add work_log.md
+  GIT_AUTHOR_DATE="$current_date 12:00:00" GIT_COMMITTER_DATE="$current_date 12:00:00" \
+  git commit -m "Backdated commit for $current_date"
+
+  current_date=$(date -d "$current_date + 1 day" +"%Y-%m-%d")
+done
+
+git push origin main
+Work log for 2024-02-09
