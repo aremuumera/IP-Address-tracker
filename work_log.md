@@ -3296,3 +3296,4 @@ Work log entry for 2024-05-26 at 13:09:37 - Fixed typo
 Work log entry for 2024-05-27 at 11:07:40 - Fixed formatting
 Work log entry for 2024-05-27 at 14:13:59 - Updated documentation
 Work log entry for 2024-05-27 at 18:31:49 - Code cleanup
+Work log entry for 2024-05-28 at 11:47:26 - Updated documentation
