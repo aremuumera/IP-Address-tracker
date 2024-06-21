@@ -3343,3 +3343,4 @@ Work log entry for 2024-06-19 at 10:56:55 - Added tests
 Work log entry for 2024-06-19 at 14:12:16 - Fixed minor bug
 Work log entry for 2024-06-20 at 09:53:31 - Updated dependencies
 Work log entry for 2024-06-20 at 12:35:53 - Added tests
+Work log entry for 2024-06-21 at 18:14:14 - Updated documentation
